@@ -1,0 +1,789 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", "Helvetica", Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header#main-header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header#main-header div.vetor img {
+  max-width: 100%;
+  min-width: 100%;
+  background: #fff;
+  display: flex;
+  /* height: 1070px; */
+  position: absolute;
+}
+
+header#main-header div.conteudo {
+  height: 200px;
+  /* background: #abaa55; */
+  position: relative;
+}
+
+header#main-header div.conteudo nav ul {
+  display: flex;
+  list-style: none;
+}
+
+/* imagem da logo */
+header#main-header div.conteudo nav ul li img {
+  margin-right: 10px;
+  margin-top: 80px;
+  height: 80px;
+  width: 60px;
+  /* background: #f0f6ec; */
+  border-radius: 50%;
+}
+
+/* goodx */
+header#main-header div.conteudo div.side {
+  display: flex;
+}
+
+header#main-header div.conteudo div.side text {
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 60px;
+  margin-top: 80px;
+
+  font-family: "Comfortaa", cursive;
+}
+
+/* expo: bem exponencial. */
+header#main-header div.conteudo div.expo {
+  display: flex;
+}
+
+header#main-header div.conteudo div.expo text {
+  margin-left: 25px;
+  margin-top: 110px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  color: #f0f6ec;
+  font-size: 26px;
+}
+
+/* menu dos botões */
+header#main-header div.conteudo div.menu {
+  display: flex;
+  height: 50px;
+  margin-top: 110px;
+  margin-left: 160px;
+  /* background: #abaa55; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header#main-header div.conteudo div.menu button {
+  height: 60px;
+  background: transparent;
+  border: none;
+  color: #f0f6ec;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 88px;
+}
+
+header#main-header div.conteudo div.menu div.quem button {
+  width: 120px;
+}
+
+header#main-header div.conteudo div.menu button:last-child {
+  margin-right: 20px;
+  /* margin-left: -10px; */
+}
+
+/* Conteúdo do meio */
+
+header#main-header div.content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  /* background: #abaa55; */
+  position: relative;
+}
+
+header#main-header div.content2 text {
+  color: #f0f6ec;
+  font-weight: bold;
+  font-size: 63px;
+  margin-left: 120px;
+  margin-top: 80px;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Conteudo do meio pt2 */
+header#main-header div.content3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 180px;
+  /* background: #abaa55; */
+  position: relative;
+  width: 580px;
+}
+
+header#main-header div.content3 text {
+  color: #f0f6ec;
+  font-weight: initial;
+  font-size: 32px;
+  margin-top: 80px;
+  margin-left: 120px;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Lua */
+header#main-header div.contentimg img {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  /* background: #abaa55; */
+  position: absolute;
+  margin-left: 740px;
+  margin-top: 26px;
+  width: 400px;
+  opacity: 0.6;
+  /* background: linear-gradient(225deg, #ffffff 40.67%, #603f84 20.52%); */
+}
+
+/* Conteúdo do meio botões */
+
+/* Conteudo do meio pt2 */
+header#main-header div.content4 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 20px;
+  /* background: #abaa55; */
+  position: relative;
+  /* width: 400px; */
+  margin-left: 150px;
+}
+
+header#main-header div.content4 button {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 10px 40px;
+  margin-top: 100px;
+  /* margin-left: 0px; */
+  background: #f8b00f;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.content4 button:last-child {
+  color: #f8b00f;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 60px;
+  /* margin-top: 80px; */
+  margin-left: 40px;
+  background: transparent;
+  border: 1px solid #f8b00f;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.content5 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 50px;
+  /* background: #abaa55; */
+  position: relative;
+  width: 700px;
+  margin-left: 600px;
+  margin-top: 580px;
+}
+
+header#main-header div.content5 text {
+  font-size: 60px;
+  font-weight: bold;
+  color: #55494b;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.content6 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 200px;
+  /* background: #abaa55; */
+  position: relative;
+}
+
+header#main-header div.content6 img {
+  display: flex;
+  /* align-items: center; */
+  /* align-content: space-between; */
+  /* background: #abaa55; */
+  position: absolute;
+  width: 990px;
+  margin-top: 180px;
+  margin-left: -200px;
+}
+
+header#main-header div.content6 text {
+  font-size: 30px;
+  font-weight: normal;
+  color: #55494b;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 260px;
+  margin-left: 680px;
+}
+
+header#main-header div.content7 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 160px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-top: 500px;
+  margin-left: 60px;
+}
+
+header#main-header div.content7 text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #55494b;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.content8 nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header div.content8 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 200px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-left: 60px;
+  margin-top: 220px;
+}
+
+header#main-header div.content8 nav ul li {
+  height: 200px;
+  width: 100px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-left: 80px;
+
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+header#main-header div.content8 nav ul li text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff0000;
+  position: absolute;
+  margin-top: 100px;
+  width: 500px;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.content9 text {
+  margin-left: 740px;
+  font-size: 100px;
+  font-weight: bold;
+  color: #55494b;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
+
+header#main-header div.content91 text {
+  margin-left: 740px;
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #55494b;
+  text-align: end;
+  width: 400px;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
+
+header#main-header div.content10 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 160px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-top: 450px;
+  margin-left: 60px;
+}
+
+header#main-header div.content10 text {
+  margin-left: 65px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #55494b;
+  width: 400px;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
+
+header#main-header div.content11 nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header div.content11 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 100px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+header#main-header div.content11 img {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+header#main-header div.google img {
+  /* background: #ff0000; */
+  width: 500px;
+  margin-top: -1px;
+
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+header#main-header div.nubank img {
+  /* background: #ff0000; */
+  width: 140px;
+  margin-top: 100px;
+
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+header#main-header div.content12 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 100px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+header#main-header div.content12 text {
+  margin-left: 66px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #55494b;
+  width: 400px;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
+
+header#main-header div.content13 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 100px;
+  /* background: #abaa55; */
+  position: absolute;
+  margin-left: 476px;
+  margin-top: 300px;
+}
+
+header#main-header div.content14 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 100px;
+  /* background: #abaa55; */
+  position: absolute;
+  margin-left: 476px;
+  margin-top: 260px;
+}
+
+header#main-header div.linha1 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 60px;
+  /* background: #abaa55; */
+  position: absolute;
+  margin-left: 640px;
+  margin-top: 240px;
+}
+
+header#main-header div.linha2 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 60px;
+  /* background: #abaa55; */
+  position: absolute;
+  margin-left: 1040px;
+  margin-top: 400px;
+}
+
+header#main-header div.linha3 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 60px;
+  /* background: #abaa55; */
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 260px;
+}
+header#main-header div.textolinha1 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+
+  position: absolute;
+  /* background: #abaa55; */
+  margin-left: 600px;
+  margin-top: 200px;
+  height: 60px;
+  width: 160px;
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.textolinha2 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+
+  position: absolute;
+  /* background: #abaa55; */
+  margin-left: 1200px;
+  margin-top: 230px;
+  height: 60px;
+  width: 160px;
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.textolinha3 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+
+  position: absolute;
+  /* background: #abaa55; */
+  margin-left: 940px;
+  margin-top: 420px;
+  height: 60px;
+  width: 140px;
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.content15 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  height: 100px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-left: 80px;
+  margin-top: 800px;
+}
+
+header#main-header div.content15 text {
+  margin-left: 66px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #55494b;
+  width: 400px;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
+
+header#main-header div.content16 {
+  margin-top: 100px;
+}
+
+header#main-header div.content16 nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header div.content16 nav ul li {
+  height: 80px;
+  width: 200px;
+  /* background: #abaa55; */
+  position: relative;
+  margin-left: 180px;
+
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+header#main-header div.content16 nav ul li text {
+  font-size: 17px;
+  font-weight: bold;
+  color: #55494b;
+  position: absolute;
+  margin-left: 20px;
+  width: 200px;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.content16 img {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+
+  margin-top: 20px;
+  width: 300px;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
+
+header#main-header div.contentEspecial {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+
+  margin-top: 200px;
+}
+
+header#main-header div.especialtext {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  position: absolute;
+}
+
+header#main-header div.especialtext img {
+  width: 80px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+header#main-header div.especialtext text {
+  margin-top: 150px;
+  margin-left: 190px;
+  font-size: 70px;
+
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 60px;
+
+  font-family: "Comfortaa", cursive;
+}
+
+header#main-header div.content17 img {
+  max-width: 100%;
+  min-width: 100%;
+  background: #fff;
+  display: flex;
+  position: absolute;
+}
+
+header#main-header div.content18 img {
+  max-width: 100%;
+  min-width: 100%;
+  /* margin-left: 10px; */
+  display: flex;
+  position: absolute;
+}
+
+header#main-header div.content19 img {
+  max-width: 100%;
+  min-width: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: 250px;
+}
+
+header#main-header div.especialSocial {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  position: absolute;
+}
+
+header#main-header div.especialSocial nav ul li text {
+  margin-top: 180px;
+  margin-left: 940px;
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.especialSocial nav ul li img {
+  display: flex;
+  position: absolute;
+  margin-top: 194px;
+  margin-left: 1156px;
+  width: 25px;
+}
+
+header#main-header div.especialSocial nav ul li div.fundo1 img {
+  display: flex;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 1140px;
+  width: 55px;
+}
+
+header#main-header div.especialSocial nav ul li div.fundo2 text {
+  margin-top: 180px;
+  margin-left: 1040px;
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.especialSocial nav ul li div.fundo2 img {
+  display: flex;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 1140px;
+  width: 55px;
+}
+
+header#main-header div.especialSocial nav ul li div.fundo3 text {
+  margin-top: 180px;
+  margin-left: 1060px;
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.especialSocial nav ul li div.fundo3 img {
+  display: flex;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 1140px;
+  width: 55px;
+}
+
+header#main-header div.especialSocial nav ul li img div.imgFacebook {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  position: absolute;
+}
+
+header#main-header div.especialSocial nav ul li div.imgFacebook img {
+  display: flex;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 1165px;
+  width: 13px;
+}
+
+/* twitter */
+
+header#main-header div.especialSocial nav ul li div.fundo4 text {
+  margin-top: 180px;
+  margin-left: 1050px;
+  color: #f0f6ec;
+  font-weight: normal;
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header#main-header div.especialSocial nav ul li div.fundo4 img {
+  display: flex;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 1140px;
+  width: 55px;
+}
+
+header#main-header div.especialSocial nav ul li img div.imgTwitter {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  position: absolute;
+}
+
+header#main-header div.especialSocial nav ul li div.imgTwitter img {
+  display: flex;
+  position: absolute;
+  margin-top: 186px;
+  margin-left: 1158px;
+  width: 23px;
+}
+
+header#main-header div.final {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  position: absolute;
+}
+
+header#main-header div.final text {
+  margin-top: 500px;
+  margin-left: 200px;
+  color: #f0f6ec;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 600px) {
+  div {
+    background: blue;
+  }
+}

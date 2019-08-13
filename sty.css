@@ -1,0 +1,30 @@
+header#main-header div.content16 nav ul li {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  /* height: 10px; */
+  /* width: 50px; */
+  /* background: #abaa55; */
+  position: relative;
+  margin-left: 200px;
+  margin-top: 60px;
+}
+
+header#main-header div.content16 text {
+  margin-left: 20px;
+  /* margin-top: 20px; */
+  font-size: 17px;
+  font-weight: bold;
+  color: #55494b;
+  width: 400px;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
+
+header#main-header div.content16 img {
+  margin-top: 20px;
+  font-size: 5px;
+  width: 360px;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+}
