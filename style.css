@@ -9,10 +9,11 @@ body {
   font-family: "Helvetica Neue", "Helvetica", Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+
 }
 
 .content {
-  max-width: 1420px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -168,6 +169,7 @@ header#main-header div.contentimg img {
   width: 400px;
   opacity: 0.6;
   /* background: linear-gradient(225deg, #ffffff 40.67%, #603f84 20.52%); */
+  
 }
 
 /* Conteúdo do meio botões */
@@ -767,6 +769,7 @@ header#main-header div.especialSocial nav ul li div.imgTwitter img {
   margin-top: 186px;
   margin-left: 1258px;
   width: 23px;
+  
 }
 
 header#main-header div.final {
@@ -774,6 +777,9 @@ header#main-header div.final {
   align-items: center;
   align-content: space-between;
   position: absolute;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 header#main-header div.final text {
