@@ -14,7 +14,7 @@ body {
 .content {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
 header#main-header .content {
@@ -164,7 +164,7 @@ header#main-header div.contentimg img {
   /* background: #abaa55; */
   position: absolute;
   margin-left: 740px;
-  margin-top: 26px;
+  margin-top: 100px;
   width: 400px;
   opacity: 0.6;
   /* background: linear-gradient(225deg, #ffffff 40.67%, #603f84 20.52%); */
@@ -218,8 +218,8 @@ header#main-header div.content5 {
   /* background: #abaa55; */
   position: relative;
   width: 700px;
-  margin-left: 600px;
-  margin-top: 580px;
+  margin-left: 700px;
+  margin-top: 680px;
 }
 
 header#main-header div.content5 text {
@@ -233,7 +233,9 @@ header#main-header div.content6 {
   display: flex;
   align-items: center;
   align-content: space-between;
-  height: 200px;
+  height: 180px;
+  width: 1250px;
+  margin-left: 100px;
   /* background: #abaa55; */
   position: relative;
 }
@@ -431,7 +433,7 @@ header#main-header div.content13 {
   height: 100px;
   /* background: #abaa55; */
   position: absolute;
-  margin-left: 476px;
+  margin-left: 580px;
   margin-top: 300px;
 }
 
@@ -442,7 +444,7 @@ header#main-header div.content14 {
   height: 100px;
   /* background: #abaa55; */
   position: absolute;
-  margin-left: 476px;
+  margin-left: 556px;
   margin-top: 260px;
 }
 
@@ -453,7 +455,7 @@ header#main-header div.linha1 {
   height: 60px;
   /* background: #abaa55; */
   position: absolute;
-  margin-left: 640px;
+  margin-left: 740px;
   margin-top: 240px;
 }
 
@@ -464,7 +466,7 @@ header#main-header div.linha2 {
   height: 60px;
   /* background: #abaa55; */
   position: absolute;
-  margin-left: 1040px;
+  margin-left: 1140px;
   margin-top: 400px;
 }
 
@@ -475,7 +477,7 @@ header#main-header div.linha3 {
   height: 60px;
   /* background: #abaa55; */
   position: absolute;
-  margin-left: 1300px;
+  margin-left: 1400px;
   margin-top: 260px;
 }
 header#main-header div.textolinha1 {
@@ -485,7 +487,7 @@ header#main-header div.textolinha1 {
 
   position: absolute;
   /* background: #abaa55; */
-  margin-left: 600px;
+  margin-left: 700px;
   margin-top: 200px;
   height: 60px;
   width: 160px;
@@ -502,7 +504,7 @@ header#main-header div.textolinha2 {
 
   position: absolute;
   /* background: #abaa55; */
-  margin-left: 1200px;
+  margin-left: 1300px;
   margin-top: 230px;
   height: 60px;
   width: 160px;
@@ -519,7 +521,7 @@ header#main-header div.textolinha3 {
 
   position: absolute;
   /* background: #abaa55; */
-  margin-left: 940px;
+  margin-left: 1040px;
   margin-top: 420px;
   height: 60px;
   width: 140px;
@@ -648,7 +650,8 @@ header#main-header div.content19 img {
   min-width: 100%;
   display: flex;
   position: absolute;
-  margin-top: 250px;
+  margin-top: 263px;
+
 }
 
 header#main-header div.especialSocial {
@@ -660,7 +663,7 @@ header#main-header div.especialSocial {
 
 header#main-header div.especialSocial nav ul li text {
   margin-top: 180px;
-  margin-left: 940px;
+  margin-left: 1040px;
   color: #f0f6ec;
   font-weight: normal;
   font-size: 23px;
@@ -671,7 +674,7 @@ header#main-header div.especialSocial nav ul li img {
   display: flex;
   position: absolute;
   margin-top: 194px;
-  margin-left: 1156px;
+  margin-left: 1256px;
   width: 25px;
 }
 
@@ -679,13 +682,13 @@ header#main-header div.especialSocial nav ul li div.fundo1 img {
   display: flex;
   position: absolute;
   margin-top: 170px;
-  margin-left: 1140px;
+  margin-left: 1240px;
   width: 55px;
 }
 
 header#main-header div.especialSocial nav ul li div.fundo2 text {
   margin-top: 180px;
-  margin-left: 1040px;
+  margin-left: 1140px;
   color: #f0f6ec;
   font-weight: normal;
   font-size: 23px;
@@ -696,13 +699,13 @@ header#main-header div.especialSocial nav ul li div.fundo2 img {
   display: flex;
   position: absolute;
   margin-top: 170px;
-  margin-left: 1140px;
+  margin-left: 1240px;
   width: 55px;
 }
 
 header#main-header div.especialSocial nav ul li div.fundo3 text {
   margin-top: 180px;
-  margin-left: 1060px;
+  margin-left: 1160px;
   color: #f0f6ec;
   font-weight: normal;
   font-size: 23px;
@@ -713,7 +716,7 @@ header#main-header div.especialSocial nav ul li div.fundo3 img {
   display: flex;
   position: absolute;
   margin-top: 170px;
-  margin-left: 1140px;
+  margin-left: 1240px;
   width: 55px;
 }
 
@@ -728,7 +731,7 @@ header#main-header div.especialSocial nav ul li div.imgFacebook img {
   display: flex;
   position: absolute;
   margin-top: 180px;
-  margin-left: 1165px;
+  margin-left: 1265px;
   width: 13px;
 }
 
@@ -736,7 +739,7 @@ header#main-header div.especialSocial nav ul li div.imgFacebook img {
 
 header#main-header div.especialSocial nav ul li div.fundo4 text {
   margin-top: 180px;
-  margin-left: 1050px;
+  margin-left: 1150px;
   color: #f0f6ec;
   font-weight: normal;
   font-size: 23px;
@@ -747,7 +750,7 @@ header#main-header div.especialSocial nav ul li div.fundo4 img {
   display: flex;
   position: absolute;
   margin-top: 170px;
-  margin-left: 1140px;
+  margin-left: 1240px;
   width: 55px;
 }
 
@@ -762,7 +765,7 @@ header#main-header div.especialSocial nav ul li div.imgTwitter img {
   display: flex;
   position: absolute;
   margin-top: 186px;
-  margin-left: 1158px;
+  margin-left: 1258px;
   width: 23px;
 }
 
@@ -774,7 +777,7 @@ header#main-header div.final {
 }
 
 header#main-header div.final text {
-  margin-top: 500px;
+  margin-top: 550px;
   margin-left: 200px;
   color: #f0f6ec;
   font-weight: bold;
