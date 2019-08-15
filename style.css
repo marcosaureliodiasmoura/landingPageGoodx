@@ -262,12 +262,14 @@ header#main-header div.content6 img {
 }
 
 header#main-header div.content6 text {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: normal;
   color: #55494b;
   font-family: "Josefin Sans", sans-serif;
   margin-top: 260px;
   margin-left: 580px;
+    /* background: #abaa55; */
+
 }
 
 header#main-header div.content7 {
