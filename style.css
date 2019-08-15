@@ -277,9 +277,9 @@ header#main-header div.content7 {
   align-items: center;
   align-content: space-between;
   height: 160px;
-  background: #abaa55;
+  /* background: #abaa55; */
   position: relative;
-  margin-top: 300px;
+  margin-top: 400px;
   margin-left: 60px;
 }
 
