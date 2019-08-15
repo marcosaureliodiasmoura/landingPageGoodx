@@ -228,7 +228,7 @@ header#main-header div.content5 {
   /* background: #abaa55; */
   position: relative;
   width: 700px;
-  margin-left: 700px;
+  margin-left: 600px;
   margin-top: 680px;
 }
 
@@ -256,7 +256,7 @@ header#main-header div.content6 img {
   /* align-content: space-between; */
   /* background: #abaa55; */
   position: absolute;
-  width: 690px;
+  width: 790px;
   margin-top: 180px;
   margin-left: -200px;
 }
