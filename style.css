@@ -91,7 +91,7 @@ header#main-header div.conteudo div.menu {
   display: flex;
   height: 50px;
   margin-top: 110px;
-  margin-left: 160px;
+  margin-left: 100px;
   /* background: #abaa55; */
   display: flex;
   align-items: center;
@@ -107,6 +107,8 @@ header#main-header div.conteudo div.menu button {
   font-weight: bold;
   font-size: 20px;
   width: 88px;
+    /* background: #abaa55; */
+
 }
 
 header#main-header div.conteudo div.menu div.quem button {
@@ -156,6 +158,7 @@ header#main-header div.content3 text {
   font-size: 32px;
   margin-top: 80px;
   margin-left: 120px;
+  /* background: #abaa55; */
 
   font-family: "Josefin Sans", sans-serif;
 }
@@ -167,7 +170,7 @@ header#main-header div.contentimg img {
   align-content: space-between;
   /* background: #abaa55; */
   position: absolute;
-  margin-left: 720px;
+  margin-left: 700px;
   margin-top: 50px;
   width: 400px;
   opacity: 0.6;
