@@ -700,7 +700,7 @@ header#main-header div.especialSocial nav ul li div.fundo1 img {
 
 header#main-header div.especialSocial nav ul li div.fundo2 text {
   margin-top: 180px;
-  margin-left: 860px;
+  margin-left: 960px;
   color: #f0f6ec;
   font-weight: normal;
   font-size: 23px;
@@ -717,7 +717,7 @@ header#main-header div.especialSocial nav ul li div.fundo2 img {
 
 header#main-header div.especialSocial nav ul li div.fundo3 text {
   margin-top: 180px;
-  margin-left: 860px;
+  margin-left: 920px;
   color: #f0f6ec;
   font-weight: normal;
   font-size: 23px;
@@ -751,7 +751,7 @@ header#main-header div.especialSocial nav ul li div.imgFacebook img {
 
 header#main-header div.especialSocial nav ul li div.fundo4 text {
   margin-top: 180px;
-  margin-left: 860px;
+  margin-left: 890px;
   color: #f0f6ec;
   font-weight: normal;
   font-size: 23px;
@@ -762,7 +762,7 @@ header#main-header div.especialSocial nav ul li div.fundo4 img {
   display: flex;
   position: absolute;
   margin-top: 170px;
-  margin-left: 1110px;
+  margin-left: 1130px;
   width: 55px;
 }
 
@@ -777,7 +777,7 @@ header#main-header div.especialSocial nav ul li div.imgTwitter img {
   display: flex;
   position: absolute;
   margin-top: 186px;
-  margin-left: 1120px;
+  margin-left: 1130px;
   width: 23px;
   
 }
