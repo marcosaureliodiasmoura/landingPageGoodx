@@ -13,7 +13,7 @@ body {
 }
 
 .content {
-  max-width: 1180px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 0 0px;
 }
@@ -168,7 +168,7 @@ header#main-header div.contentimg img {
   /* background: #abaa55; */
   position: absolute;
   margin-left: 740px;
-  margin-top: 50px;
+  margin-top: 40px;
   width: 400px;
   opacity: 0.6;
   /* background: linear-gradient(225deg, #ffffff 40.67%, #603f84 20.52%); */
