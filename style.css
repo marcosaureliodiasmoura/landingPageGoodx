@@ -988,4 +988,10 @@ header#main-header div.content7 text {
 }
 
   
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
 }
